@@ -18,5 +18,5 @@ jobs:
             blogs: True
             theme: 2
             hackathons: True
-            social_links: "https://twitter.com/jalaj_purohit https://in.linkedin.com/in/jalajpurohit https://codepen.io/jalajpurohit https://dev.to/jalajpurohit https://kaggle.com/jalajpurohit https://fb.com/jalajpurohit https://medium.com/@jalajpurohit"
+            social_links: "https://twitter.com/jalaj_purohit https://www.linkedin.com/in/jalajpurohit https://codepen.io/jalajpurohit https://dev.to/jalajpurohit https://kaggle.com/jalajpurohit https://fb.com/jalajpurohit https://medium.com/@jalajpurohit"
             allow_footer: False

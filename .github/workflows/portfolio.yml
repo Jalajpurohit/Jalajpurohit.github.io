@@ -15,16 +15,8 @@ jobs:
           with:
             gh_token: ${{ secrets.TOKEN }}
             stats_choice: 2
-            blogs: False
+            blogs: True
             theme: 2
-            hackathons: False
+            hackathons: True
             social_links: "https://twitter.com/jalaj_purohit, https://in.linkedin.com/in/jalajpurohit, https://in.linkedin.com/in/jalajpurohit, https://in.linkedin.com/in/jalajpurohit, https://in.linkedin.com/in/jalajpurohit, https://codepen.io/jalajpurohit, https://dev.to/jalajpurohit, https://kaggle.com/jalajpurohit, https://fb.com/jalajpurohit, https://medium.com/@jalajpurohit"
             allow_footer: False
-
-  
-        - uses: test-room-7/action-update-file@v1
-          with:
-            file-path: |
-              index.html
-            commit-msg: index file added
-            github-token: ${{ secrets.TOKEN }}
